@@ -1,0 +1,38 @@
+export const siteAssets = {
+  bgNavy: "https://45r.jp/ja/45denim-karuta/_astro/bg-navy.C1Be5VON.png",
+  bgBeige: "https://45r.jp/ja/45denim-karuta/_astro/bg-beige.QuYK4gBU.png",
+  introCards: [
+    "https://45r.jp/ja/45denim-karuta/_astro/karuta_1.CXBXpdll_XGYpk.webp",
+    "https://45r.jp/ja/45denim-karuta/_astro/karuta_2.B0vAADA0_Z24Odyy.webp",
+    "https://45r.jp/ja/45denim-karuta/_astro/karuta_3.iI7oQhL-_Zm5QjD.webp",
+  ],
+  stars: [
+    "https://45r.jp/ja/45denim-karuta/_astro/star_1.DDvNj6js_1KYku.webp",
+    "https://45r.jp/ja/45denim-karuta/_astro/star_2.DeWx4VLm_Z1aohiR.webp",
+    "https://45r.jp/ja/45denim-karuta/_astro/star_3.C6D53oGS_1tJukH.webp",
+    "https://45r.jp/ja/45denim-karuta/_astro/star_4.9bL8WWmS_Zi49c7.webp",
+    "https://45r.jp/ja/45denim-karuta/_astro/star_5.CU4DCmSm_1Vlqcf.webp",
+  ],
+  bookCards: [
+    "https://45r.jp/ja/45denim-karuta/_astro/1.sgMrZs6Z_205qzn.webp",
+    "https://45r.jp/ja/45denim-karuta/_astro/2.C97_-MF4_7jJnf.webp",
+    "https://45r.jp/ja/45denim-karuta/_astro/3.CQT33XS6_Z1ee5La.webp",
+    "https://45r.jp/ja/45denim-karuta/_astro/4.Bx8pM71X_1ZJO3D.webp",
+    "https://45r.jp/ja/45denim-karuta/_astro/5.DTgAkN6d_Z2qEN3G.webp",
+    "https://45r.jp/ja/45denim-karuta/_astro/6.BBfq13Uj_Z1MHPlx.webp",
+    "https://45r.jp/ja/45denim-karuta/_astro/7.CD9kqvME_Z2pLPBU.webp",
+    "https://45r.jp/ja/45denim-karuta/_astro/8.C9_NdbKr_Z2dhh5n.webp",
+    "https://45r.jp/ja/45denim-karuta/_astro/9.BkOVUtge_3Lnci.webp",
+  ],
+  sound: {
+    on: "https://45r.jp/ja/45denim-karuta/assets/se/01.mp3",
+    off: "https://45r.jp/ja/45denim-karuta/assets/se/02.mp3",
+    click: "https://45r.jp/ja/45denim-karuta/assets/se/03.mp3",
+    enter: "https://45r.jp/ja/45denim-karuta/assets/se/04.mp3",
+    correct: "https://45r.jp/ja/45denim-karuta/assets/se/08.mp3",
+    incorrect: "https://45r.jp/ja/45denim-karuta/assets/se/09.mp3",
+    card: "https://45r.jp/ja/45denim-karuta/assets/se/12.mp3",
+    reset: "https://45r.jp/ja/45denim-karuta/assets/se/15.mp3",
+    bgm: "https://45r.jp/ja/45denim-karuta/assets/se/bgm_01.mp3",
+  },
+} as const;
