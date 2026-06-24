@@ -1,6 +1,0 @@
-node_modules/
-dist/
-.vite/
-.npm-cache/
-*.local
-coverage/
